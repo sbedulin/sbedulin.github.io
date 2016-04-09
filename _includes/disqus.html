@@ -1,0 +1,32 @@
+<div id="disqus_thread"></div>
+<script>
+    String.prototype.hashCode = function() {
+        var hash = 0, i, chr, len;
+        if (this.length === 0) return hash;
+        for (i = 0, len = this.length; i < len; i++) {
+            chr   = this.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+    };
+
+    /**
+     * https://disqus.com/admin/universalcode/#configuration-variables
+     */
+     var disqus_config = function () {
+        // page's canonical URL variable
+        this.page.url = {{ page.url | prepend: site.url }};
+        this.page.identifier = this.page.url.hashCode(); // page's unique identifier variable
+     };
+
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+
+        s.src = '//sbedulin.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

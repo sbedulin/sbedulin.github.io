@@ -1,0 +1,25 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Contact me</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>{% include contacts/gmail.html %}</li>
+          <li>{% include contacts/twitter.html username=site.twitter_username %}</li>
+          <li>{% include contacts/github.html username=site.github_username %}</li>
+          <li>{% include contacts/stackoverflow.html username=site.stackoverflow_username %}</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <div>I try to contribute, answer questions, write some random stuff</div>
+        <div>I also compiled short <a class="page-link" href="/resume">resume</a></div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
