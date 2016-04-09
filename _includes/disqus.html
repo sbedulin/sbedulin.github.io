@@ -16,7 +16,7 @@
      */
      var disqus_config = function () {
         // page's canonical URL variable
-        this.page.url = {{ page.url | prepend: site.url }};
+        this.page.url = '{{ page.url | prepend: site.url }}';
         this.page.identifier = this.page.url.hashCode(); // page's unique identifier variable
      };
 
