@@ -73,8 +73,14 @@ We just need to add a snippet to our default page template
 {% endraw %}
 {% endhighlight %}
 
-<br><br>
-Ready to host on [Github Pages][github-pages]! BTW it sets `JEKYLL_ENV` to `production` for us
+## [Github Pages][github-pages] hosting 
+
+Everything is pretty straightforward: we need to push our code to `sbedulin.github.io:master` 
+and add CNAME file for a [custom domain][custom-domains]. Github gives a [good overview][custom-domains] on how to 
+set up a custom domain, subdomains, configure DNS records, differences between CNAME and A, etc, 
+make sure to check it out. 
+
+BTW, Github Pages sets `JEKYLL_ENV` to `production` for us.
 
 [jekyll]: http://jekyllrb.com
 [github]: http://github.com
@@ -83,3 +89,4 @@ Ready to host on [Github Pages][github-pages]! BTW it sets `JEKYLL_ENV` to `prod
 [frontmatter]: https://jekyllrb.com/docs/frontmatter/
 [js-hash-generator]: http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/
 [github-pages]: https://pages.github.com/
+[custom-domains]: https://help.github.com/articles/using-a-custom-domain-with-github-pages/
