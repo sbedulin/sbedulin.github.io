@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jekyll Rocks!"
-date:   2016-04-07 22:49:00 -0700
+date:   2016-04-07
 ---
 I have to admit, I've been looking for something like [Jekyll][jekyll] for a long time!
 Guys at [GitHub][github] just know how to create awesome products.
