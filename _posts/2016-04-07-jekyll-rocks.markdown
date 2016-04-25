@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Jekyll Rocks!"
+category: blog
+tags: jekyll, hosting
 date:   2016-04-07
 ---
 I have to admit, I've been looking for something like [Jekyll][jekyll] for a long time!

@@ -1,0 +1,29 @@
+---
+layout: post
+title:  Kyle Simpson's "You Dont Know JS"
+categories: javascript, books
+tags: javascript, books
+date:   2016-04-24
+---
+The more you know JavaScript the less you know JavaScript. That's `!!"true"`.
+
+[![image](https://pbs.twimg.com/profile_images/448725411606716416/KdYv0Wnh.png)][twi]
+
+I came across [Kyle's YDKJS book series][github] a couple of times but 
+it's not until I watched [his Pluralsight course on Advanced Javascript][ps-advanced] 
+I actually wanted to dive deeper (there is also a [basics course][ps-basic] if you are interested).
+
+- books are free and available on [GitHub][github]
+- good examples and overall great quality of material. 
+Some metaphors are so cool that give a sense of "Eureka!" and "How didn't I think about this before?"
+- debatable topics are addressed by author in [Issues section][github-issues]
+- highly recommended! 
+Beginners, intermediate, advanced levels will find a lot of useful and practical information 
+
+Thank you Kyle!
+
+[ps-basic]: http://app.pluralsight.com/courses/javascript-programming-basics
+[ps-advanced]: http://app.pluralsight.com/courses/advanced-javascript
+[github]: https://github.com/getify/You-Dont-Know-JS
+[github-issues]: https://github.com/getify/You-Dont-Know-JS/issues
+[twi]: https://twitter.com/ydkjs
