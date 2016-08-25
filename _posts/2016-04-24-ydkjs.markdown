@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Kyle Simpson's "You Dont Know JS"
-categories: javascript, books
+category: blog
 tags: javascript, books
 date:   2016-04-24
 ---
