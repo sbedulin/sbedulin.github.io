@@ -37,4 +37,4 @@ Here is GitHub article I used - ["Quick start: Setting up a custom domain"][set-
 [asphostportal]: https://www.asphostportal.com/
 [godaddy]: https://www.godaddy.com/
 [set-up-apex-ips]: https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider
-[set-up-custom-domain]: [https://help.github.com/articles/quick-start-setting-up-a-custom-domain]
+[set-up-custom-domain]: https://help.github.com/articles/quick-start-setting-up-a-custom-domain
